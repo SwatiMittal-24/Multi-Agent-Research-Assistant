@@ -1,0 +1,28 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Environment and secrets (CRITICAL: Never commit API keys)
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# SQLite persistent databases (local state)
+*.db
+*.sqlite
+*.sqlite3
+
+# Streamlit caches
+.streamlit/cache/
+
+# OS-generated files
+Thumbs.db
+.DS_Store

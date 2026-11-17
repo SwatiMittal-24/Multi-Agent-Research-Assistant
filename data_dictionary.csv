@@ -1,0 +1,8 @@
+column_name,data_type,sample_value_1,sample_value_2,sample_value_3,nullable,description
+run_id,string,R00001,R00102,R05000,No,Unique identifier assigned to each multi-agent research execution log.
+agent_role,string,Researcher,Writer,Fact_Checker,No,"Specialized agent role responsible for the logged stage: Researcher, Writer, or Fact_Checker."
+task_type,string,AI_Trends,Market_Analysis,HealthAI,No,Research topic/category handled by the agent during the run. Twenty topics are represented.
+tokens_used,integer,1205,3470,7199,No,Synthetic total token count attributed to the logged agent run.
+duration_s,float,25.0,78.1,149.9,No,Elapsed execution duration in seconds.
+quality_score,float,0.462,0.822,0.99,No,Synthetic quality score on a 0–1 scale; higher values indicate stronger assessed output quality.
+errors,integer,0,0,1,No,Binary fault indicator: 1 marks a simulated error/anomaly; 0 indicates no recorded simulated error.

@@ -1,0 +1,14 @@
+{
+  "records": 5000,
+  "columns": 7,
+  "topics": 20,
+  "agent_roles": 3,
+  "errors": 147,
+  "error_rate_pct": 2.94,
+  "mean_tokens": 3650.11,
+  "median_duration_s": 78.1,
+  "mean_quality_score": 0.82,
+  "min_quality_score": 0.462,
+  "max_quality_score": 0.99,
+  "dataset_source": "Entirely synthetic, generated with NumPy seed 78; original dataset.csv was not uploaded."
+}
